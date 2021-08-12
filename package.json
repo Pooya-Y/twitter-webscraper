@@ -4,6 +4,12 @@
   "main": "dist/index.js",
   "repository": "https://github.com/Pooya-Y/twitter-scraper.js/",
   "types": "dist/index.d.ts",
+  "keywords": [
+    "twitter",
+    "tweet",
+    "scraper",
+    "twitter scraper"
+  ],
   "scripts": {
     "start": "tsc && node ./dist/index.js"
   },
