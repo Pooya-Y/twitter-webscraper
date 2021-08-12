@@ -1,9 +1,9 @@
-# twitter-scraper.js
+# twitter-webscraper
 A Twitter web scraper built with TypeScript and Puppeteer 
 ## Installation
 To use this package in your project, run:
 ```bash
-npm i twitter-scraper.js
+npm i twitter-webscraper
 ```
 ## Features
 - Log in to your Twitter account
@@ -19,7 +19,7 @@ npm i twitter-scraper.js
 ## Usage
 
 ```js
-const { Scraper } = require('twitter-scraper.js');
+const { Scraper } = require('twitter-webscraper');
 const scraper = new Scraper();
 
 (async () => {
