@@ -1,14 +1,15 @@
 {
-  "name": "twitter-scraper.js",
+  "name": "twitter-webscraper",
   "version": "1.0.0",
   "main": "dist/index.js",
-  "repository": "https://github.com/Pooya-Y/twitter-scraper.js/",
+  "repository": "https://github.com/Pooya-Y/twitter-webscraper/",
   "types": "dist/index.d.ts",
   "keywords": [
+    "twitter webscraper",
     "twitter",
     "tweet",
     "scraper",
-    "twitter scraper"
+    "webscraper"
   ],
   "scripts": {
     "start": "tsc && node ./dist/index.js"
