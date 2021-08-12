@@ -1,0 +1,17 @@
+{
+  "name": "tweet.js",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pooya Yahyavi <pooya3yahyavi@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^10.2.0"
+  },
+  "devDependencies": {
+    "@types/puppeteer": "^5.4.4"
+  }
+}
