@@ -25,7 +25,8 @@ const scraper = new Scraper();
 (async () => {
     // It will initialize the headless browser 
     await scraper.initializeBrowser();
-    // It's not necessary to log in, but if you want to have access to all of the features, then you need to log in.  
+    // It's not necessary to log in, but if you want to have access to
+    // all of the features, then you need to log in.  
     await scraper.login('username or email', 'password');
     const userInfo = await scraper.getUserInfo('username');
     console.log(userInfo);
