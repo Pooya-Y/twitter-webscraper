@@ -1,8 +1,8 @@
 {
-  "name": "tweet.js",
+  "name": "twitter-scraper.js",
   "version": "1.0.0",
   "main": "dist/index.js",
-  "repository": "https://github.com/Pooya-Y/tweet.js",
+  "repository": "https://github.com/Pooya-Y/twitter-scraper.js/",
   "types": "dist/index.d.ts",
   "scripts": {
     "start": "tsc && node ./dist/index.js"
