@@ -34,7 +34,7 @@ export class User implements User {
     browser!: puppeteer.Browser;
     async initializeBrowser(): Promise<void>{
         this.browser = await puppeteer.launch({ headless: true,
-            args: ['--start-maximized'] // you can also use '--start-fullscreen'
+            args: ['--start-maximized'] 
          });
     }
     async login(username_or_email: string, password: string): Promise<void>{
