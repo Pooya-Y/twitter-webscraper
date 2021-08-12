@@ -1,6 +1,6 @@
 import puppeteer from 'puppeteer';
 
-export interface User {
+export interface Scraper {
     username_or_email?: string;
     password?: string;
     username?: string;
@@ -20,7 +20,7 @@ export interface User {
     getTweet(link: string): Promise<{}>;
 }
 
-export class User implements User {
+export class Scraper implements Scraper {
     username_or_email?: string;
     password?: string;
     username?: string;
